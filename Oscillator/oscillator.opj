@@ -68,13 +68,9 @@
       (Path "Design Resources"
          "C:\Users\Tom\Documents\EE\EE352\Project\Oscillator\oscillator.dsn"
          "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\Tom\Documents\EE\EE352\Project\Oscillator\oscillator.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Outputs"))
     (HierarchyView
-      (Path "SCHEMATIC1")
-      (Select "SCHEMATIC1"))
+      (Path "SCHEMATIC1"))
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
