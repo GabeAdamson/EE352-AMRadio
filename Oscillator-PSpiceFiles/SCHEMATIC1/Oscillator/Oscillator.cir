@@ -1,4 +1,4 @@
-** Profile: "SCHEMATIC1-Oscillator"  [ C:\Users\Tom\Documents\EE\EE352\Project\Oscillator-PSpiceFiles\SCHEMATIC1\Oscillator.sim ] 
+** Profile: "SCHEMATIC1-Oscillator"  [ c:\users\tom\documents\ee\ee352\project\oscillator-pspicefiles\schematic1\oscillator.sim ] 
 
 ** Creating circuit file "Oscillator.cir" 
 ** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
@@ -10,7 +10,7 @@
 .lib "nomd.lib" 
 
 *Analysis directives: 
-.TRAN  0 10m 0 100n 
+.TRAN  0 .5m 0 100n 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
