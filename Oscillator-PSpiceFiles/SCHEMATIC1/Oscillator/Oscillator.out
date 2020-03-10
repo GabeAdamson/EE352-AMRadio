@@ -1,5 +1,5 @@
 
-**** 03/10/20 15:26:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/10/20 15:47:57 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Oscillator"  [ c:\users\tom\documents\ee\ee352\project\oscillator-pspicefiles\schematic1\oscillator.sim ] 
 
@@ -22,7 +22,7 @@
 .lib "nomd.lib" 
 
 *Analysis directives: 
-.TRAN  0 .5m 0 100n 
+.TRAN  0 1.5m 0 100n 
 .OPTIONS ADVCONV
 .PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
 .INC "..\SCHEMATIC1.net" 
@@ -32,19 +32,19 @@
 **** INCLUDING SCHEMATIC1.net ****
 * source OSCILLATOR
 X_U1         N00193 N00238 N00398 N00414 N00213 OP-27
-R_R1         N00238 N00213  2k TC=0,0 
+R_R1         N00238 N00213  2.2k TC=0,0 
 R_R2         0 N00238  1k TC=0,0 
 R_R3         N00209 N00213  227 TC=0,0 
 C_C1         N00193 N00209  10n  TC=0,0 
 C_C2         0 N00193  10n  TC=0,0 
 R_R4         0 N00193  227 TC=0,0 
-V_V1         N00398 0 12Vdc
-V_V2         0 N00414 12Vdc
+V_V1         N00398 0 15Vdc
+V_V2         0 N00414 15Vdc
 
 **** RESUMING Oscillator.cir ****
 .END
 
-**** 03/10/20 15:26:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/10/20 15:47:57 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Oscillator"  [ c:\users\tom\documents\ee\ee352\project\oscillator-pspicefiles\schematic1\oscillator.sim ] 
 
@@ -63,7 +63,7 @@ V_V2         0 N00414 12Vdc
          CJO                   10.000000E-12 
 
 
-**** 03/10/20 15:26:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/10/20 15:47:57 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Oscillator"  [ c:\users\tom\documents\ee\ee352\project\oscillator-pspicefiles\schematic1\oscillator.sim ] 
 
@@ -101,7 +101,7 @@ V_V2         0 N00414 12Vdc
            D     .87         
 
 
-**** 03/10/20 15:26:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/10/20 15:47:57 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Oscillator"  [ c:\users\tom\documents\ee\ee352\project\oscillator-pspicefiles\schematic1\oscillator.sim ] 
 
@@ -116,19 +116,19 @@ V_V2         0 N00414 12Vdc
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N00193)-2.260E-06 (N00209) 14.10E-06 (N00213) 14.10E-06 (N00238)-1.938E-06     
+(N00193)-2.259E-06 (N00209) 15.70E-06 (N00213) 15.70E-06 (N00238)-1.937E-06     
 
-(N00398)   12.0000 (N00414)  -12.0000 (X_U1.6)-1.591E-09 (X_U1.7) 14.42E-06     
+(N00398)   15.0000 (N00414)  -15.0000 (X_U1.6)-1.727E-09 (X_U1.7) 16.02E-06     
 
-(X_U1.8) 14.42E-06 (X_U1.9)    0.0000 (X_U1.10)    -.6403                       
+(X_U1.8) 16.02E-06 (X_U1.9)    0.0000 (X_U1.10)    -.6403                       
 
-(X_U1.11)   11.9720                   (X_U1.12)   11.9720                       
+(X_U1.11)   14.9720                   (X_U1.12)   14.9720                       
 
 (X_U1.13)    -.6384                   (X_U1.14)    -.6384                       
 
-(X_U1.53)   10.8000                   (X_U1.54)  -10.8000                       
+(X_U1.53)   13.8000                   (X_U1.54)  -13.8000                       
 
-(X_U1.90) 8.018E-06                   (X_U1.91)   40.0000                       
+(X_U1.90) 8.016E-06                   (X_U1.91)   40.0000                       
 
 (X_U1.92)  -40.0000                   (X_U1.99)    0.0000                   
 
@@ -138,22 +138,22 @@ V_V2         0 N00414 12Vdc
     VOLTAGE SOURCE CURRENTS
     NAME         CURRENT
 
-    V_V1        -2.683E-03
-    V_V2        -2.683E-03
-    X_U1.vb     -1.591E-14
-    X_U1.vc      1.080E-11
-    X_U1.ve      1.228E-11
-    X_U1.vlim    8.018E-09
+    V_V1        -3.333E-03
+    V_V2        -3.333E-03
+    X_U1.vb     -1.726E-14
+    X_U1.vc      1.380E-11
+    X_U1.ve      1.569E-11
+    X_U1.vlim    8.016E-09
     X_U1.vlp    -4.000E-11
     X_U1.vln    -4.000E-11
 
-    TOTAL POWER DISSIPATION   6.44E-02  WATTS
+    TOTAL POWER DISSIPATION   1.00E-01  WATTS
 
 
 
           JOB CONCLUDED
 
-**** 03/10/20 15:26:32 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/10/20 15:47:57 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Oscillator"  [ c:\users\tom\documents\ee\ee352\project\oscillator-pspicefiles\schematic1\oscillator.sim ] 
 
@@ -165,5 +165,5 @@ V_V2         0 N00414 12Vdc
 
 
 
-  Total job time (using Solver 1)   =         .28
+  Total job time (using Solver 1)   =         .94
 
