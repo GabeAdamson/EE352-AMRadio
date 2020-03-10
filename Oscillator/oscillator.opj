@@ -64,13 +64,15 @@
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "C:\Users\Tom\Documents\EE\EE352\Project\Oscillator\oscillator.dsn")
+         "c:\users\tom\documents\ee\ee352\project\oscillator\oscillator.dsn")
       (Path "Design Resources"
-         "C:\Users\Tom\Documents\EE\EE352\Project\Oscillator\oscillator.dsn"
+         "c:\users\tom\documents\ee\ee352\project\oscillator\oscillator.dsn"
          "SCHEMATIC1")
-      (Path "Outputs"))
-    (HierarchyView
-      (Path "SCHEMATIC1"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "c:\users\tom\documents\ee\ee352\project\oscillator\oscillator.dsn"
+         "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
@@ -80,7 +82,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-54 312")
+        (Scroll "-54 298")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\OSCILLATOR\OSCILLATOR.DSN")
