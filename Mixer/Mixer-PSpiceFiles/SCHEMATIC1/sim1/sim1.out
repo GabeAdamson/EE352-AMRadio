@@ -1,0 +1,202 @@
+
+**** 03/10/20 16:59:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\Mixer-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "sim1.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\Gabe\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 10m 0 100n 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source MIXER
+R_Rf         N00912 N00920  10k TC=0,0 
+V_V1         N00970 0  AC 0V
++SIN 0V 1V 2KHz 0 0 0
+V_V3         0 N01082 12Vdc
+R_R1         N00970 N00912  10k TC=0,0 
+V_V2         N00884 0 12Vdc
+R_R2         N01066 N00912  20k TC=0,0 
+X_U1         0 N00912 N00884 N01082 N00920 OP-27
+V_V5         0 N01614 15Vdc
+R_R5         N01762 N01066  330 TC=0,0 
+R_R4         0 N01594  1k TC=0,0 
+C_C1         N01720 N01762  4.7n  TC=0,0 
+C_C2         0 N01720  4.7n  TC=0,0 
+X_U2         N01720 N01594 N01728 N01614 N01066 OP-27
+V_V4         N01728 0 15Vdc
+R_R6         0 N01720  330 TC=0,0 
+R_R3         N01594 N01066  2.2k TC=0,0 
+
+**** RESUMING sim1.cir ****
+.END
+
+**** 03/10/20 16:59:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\Mixer-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.dx         X_U1.dy         X_U2.dx         X_U2.dy         
+          IS  800.000000E-18  800.000000E-18  800.000000E-18  800.000000E-18 
+          RS    1               1.000000E-03    1               1.000000E-03 
+         CJO                   10.000000E-12                   10.000000E-12 
+
+
+**** 03/10/20 16:59:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\Mixer-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1.qx         X_U2.qx         
+               NPN             NPN             
+       LEVEL    1               1            
+          IS  800.000000E-18  800.000000E-18 
+          BF    4.200000E+03    4.200000E+03 
+          NF    1               1            
+          BR    1               1            
+          NR    1               1            
+         ISS    0               0            
+          RE    0               0            
+          RC    0               0            
+         CJE    0               0            
+         VJE     .75             .75         
+         CJC    0               0            
+         VJC     .75             .75         
+         MJC     .33             .33         
+        XCJC    1               1            
+         CJS    0               0            
+         VJS     .75             .75         
+          KF    0               0            
+          AF    1               1            
+          CN    2.42            2.42         
+           D     .87             .87         
+
+
+**** 03/10/20 16:59:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\Mixer-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00884)   12.0000 (N00912) 321.9E-09 (N00920) 94.16E-06 (N00970)    0.0000     
+
+(N01066) 12.42E-06 (N01082)  -12.0000 (N01594)-2.963E-06 (N01614)  -15.0000     
+
+(N01720)-3.284E-06 (N01728)   15.0000 (N01762) 12.42E-06 (X_U1.6)-8.308E-09     
+
+(X_U1.7) 94.53E-06 (X_U1.8) 94.53E-06 (X_U1.9)    0.0000 (X_U2.6)-1.369E-09     
+
+(X_U2.7) 12.72E-06 (X_U2.8) 12.72E-06 (X_U2.9)    0.0000 (X_U1.10)    -.6403    
+
+(X_U1.11)   11.9720                   (X_U1.12)   11.9720                       
+
+(X_U1.13)    -.6384                   (X_U1.14)    -.6384                       
+
+(X_U1.53)   10.8000                   (X_U1.54)  -10.8000                       
+
+(X_U1.90) 9.384E-06                   (X_U1.91)   40.0000                       
+
+(X_U1.92)  -40.0000                   (X_U1.99)    0.0000                       
+
+(X_U2.10)    -.6403                   (X_U2.11)   14.9720                       
+
+(X_U2.12)   14.9720                   (X_U2.13)    -.6384                       
+
+(X_U2.14)    -.6384                   (X_U2.53)   13.8000                       
+
+(X_U2.54)  -13.8000                   (X_U2.90) 7.595E-06                       
+
+(X_U2.91)   40.0000                   (X_U2.92)  -40.0000                       
+
+(X_U2.99)    0.0000                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         3.219E-11
+    V_V3        -2.683E-03
+    V_V2        -2.683E-03
+    V_V5        -3.333E-03
+    V_V4        -3.333E-03
+    X_U1.vb     -8.308E-14
+    X_U1.vc      1.080E-11
+    X_U1.ve      1.228E-11
+    X_U1.vlim    9.384E-09
+    X_U1.vlp    -4.000E-11
+    X_U1.vln    -4.000E-11
+    X_U2.vb     -1.368E-14
+    X_U2.vc      1.380E-11
+    X_U2.ve      1.569E-11
+    X_U2.vlim    7.595E-09
+    X_U2.vlp    -4.000E-11
+    X_U2.vln    -4.000E-11
+
+    TOTAL POWER DISSIPATION   1.64E-01  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 03/10/20 16:59:50 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-sim1"  [ C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\Mixer-PSpiceFiles\SCHEMATIC1\sim1.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =       15.55
+

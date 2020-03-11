@@ -7,10 +7,18 @@
     (File ".\mixer.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs"
+    (File ".\mixer-pspicefiles\schematic1\schematic1.net"
+      (Type "Report")))
   (Folder "PSpice Resources"
-    (Folder "Simulation Profiles")
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\mixer-pspicefiles\schematic1\sim1.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\mixer-pspicefiles\schematic1\sim1.sim"
+        (DisplayName "SCHEMATIC1-sim1")
+        (Type "PSpice Profile")))
     (Folder "Model Libraries"
       (Sort User))
     (Folder "Stimulus Files"
@@ -21,7 +29,16 @@
   (PartMRUSelector)
   (GlobalState
     (FileView
-      (Path "Design Resources"))
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\mixer.dsn")
+      (Path "Design Resources"
+         "C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\mixer.dsn"
+         "SCHEMATIC1")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Mixer\mixer.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -31,10 +48,11 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 104 1434 104 425")
-        (Scroll "-156 0")
+        (Placement "44 2 3 -1 -1 -8 -31 63 1393 196 517")
+        (Scroll "-82 0")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "C:\USERS\GABE\DOCUMENTS\GITHUB\EE352-AMRADIO\MIXER.DSN")
+      (Path "C:\USERS\GABE\DOCUMENTS\GITHUB\EE352-AMRADIO\MIXER\MIXER.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "PAGE1")))
+  (MPSSessionName "Gabe"))

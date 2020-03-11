@@ -59,29 +59,33 @@
       (FullPartName "OP-27.Normal")
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\PSPICE\OPAMP.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "Tom")
+  (MPSSessionName "Gabe")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
-         "c:\users\tom\documents\ee\ee352\project\oscillator\oscillator.dsn")
+         "C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Oscillator\oscillator.dsn")
       (Path "Design Resources"
-         "c:\users\tom\documents\ee\ee352\project\oscillator\oscillator.dsn"
+         "C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Oscillator\oscillator.dsn"
          "SCHEMATIC1")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\Users\Gabe\Documents\GitHub\EE352-AMRadio\Oscillator\oscillator.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 41 241 25 215"))
+        (Placement "44 2 3 -1 -1 -8 -31 160 360 261 451"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-101 298")
+        (Placement "44 0 1 -1 -1 -8 -31 104 1434 104 425")
+        (Scroll "-156 180")
         (Zoom "100")
         (Occurrence "/"))
-      (Path "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\OSCILLATOR\OSCILLATOR.DSN")
+      (Path
+         "C:\USERS\GABE\DOCUMENTS\GITHUB\EE352-AMRADIO\OSCILLATOR\OSCILLATOR.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))))
