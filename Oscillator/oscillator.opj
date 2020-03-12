@@ -63,11 +63,6 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "c:\users\tom\documents\ee\ee352\project\oscillator\oscillator.dsn")
-      (Path "Design Resources"
-         "c:\users\tom\documents\ee\ee352\project\oscillator\oscillator.dsn"
-         "SCHEMATIC1")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
@@ -79,7 +74,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-101 298")
+        (Scroll "-101 221")
         (Zoom "100")
         (Occurrence "/"))
       (Path "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\OSCILLATOR\OSCILLATOR.DSN")
