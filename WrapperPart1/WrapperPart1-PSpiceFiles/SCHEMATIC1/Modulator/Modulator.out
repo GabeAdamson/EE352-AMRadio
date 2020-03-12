@@ -1,5 +1,5 @@
 
-**** 03/12/20 15:10:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/12/20 15:22:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Modulator"  [ C:\Users\Tom\Documents\EE\EE352\Project\WrapperPart1\wrapperpart1-pspicefiles\schematic1\modul
 
@@ -46,19 +46,18 @@ D_Modulator_D1         Modulator_N00920 N01069 D1N914
 V_V1         N01044 0  AC 0V
 +SIN 0V 1V 2KHz 0 0 0
 X_BPF_U1         0 BPF_N00213 N01330 N01342 N01561 OP-27
-R_BPF_R1         BPF_N00213 N01561  1k TC=0,0 
-R_BPF_R2         0 BPF_N00227  1k TC=0,0 
-R_BPF_R3         BPF_N00227 N01044  1k TC=0,0 
-C_BPF_C1         BPF_N00227 BPF_N00213  1n  TC=0,0 
-C_BPF_C2         BPF_N00227 N01561  1n  TC=0,0 
+R_BPF_R3         BPF_N00213 N01561  9k TC=0,0 
+R_BPF_R2         0 BPF_N00227  30 TC=0,0 
+R_BPF_R1         BPF_N00227 N01069  4.4k TC=0,0 
+C_BPF_C1         BPF_N00227 BPF_N00213  4.7n  TC=0,0 
+C_BPF_C2         BPF_N00227 N01561  4.7n  TC=0,0 
 V_V+         N01330 0 15Vdc
 V_V-         0 N01342 15Vdc
-R_R1         0 N01069  1k TC=0,0 
 
 **** RESUMING Modulator.cir ****
 .END
 
-**** 03/12/20 15:10:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/12/20 15:22:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Modulator"  [ C:\Users\Tom\Documents\EE\EE352\Project\WrapperPart1\wrapperpart1-pspicefiles\schematic1\modul
 
@@ -94,7 +93,7 @@ R_R1         0 N01069  1k TC=0,0
          CJO   10.000000E-12                                   10.000000E-12 
 
 
-**** 03/12/20 15:10:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/12/20 15:22:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Modulator"  [ C:\Users\Tom\Documents\EE\EE352\Project\WrapperPart1\wrapperpart1-pspicefiles\schematic1\modul
 
@@ -132,7 +131,7 @@ R_R1         0 N01069  1k TC=0,0
            D     .87             .87                             .87         
 
 
-**** 03/12/20 15:10:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/12/20 15:22:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Modulator"  [ C:\Users\Tom\Documents\EE\EE352\Project\WrapperPart1\wrapperpart1-pspicefiles\schematic1\modul
 
@@ -147,19 +146,19 @@ R_R1         0 N01069  1k TC=0,0
  NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
 
 
-(N00025) 12.42E-06 (N01044)    0.0000 (N01069) 182.3E-12 (N01330)   15.0000     
+(N00025) 12.42E-06 (N01044)    0.0000 (N01069) 807.5E-12 (N01330)   15.0000     
 
-(N01342)  -15.0000 (N01561) 10.28E-06 (BPF_N00213) 321.9E-09                    
+(N01342)  -15.0000 (N01561) 89.90E-06 (BPF_N00213) 321.9E-09                    
 
-(BPF_N00227)    0.0000                (Osc_N02857)-2.963E-06                    
+(BPF_N00227) 5.468E-12                (Osc_N02857)-2.963E-06                    
 
 (Osc_N02983)-3.284E-06                (Osc_N03025) 12.42E-06                    
 
-(X_BPF_U1.6)-1.284E-09                (X_BPF_U1.7) 10.67E-06                    
+(X_BPF_U1.6)-7.955E-09                (X_BPF_U1.7) 90.30E-06                    
 
-(X_BPF_U1.8) 10.67E-06                (X_BPF_U1.9)    0.0000                    
+(X_BPF_U1.8) 90.30E-06                (X_BPF_U1.9)    0.0000                    
 
-(X_Osc_U1.6)-1.368E-09                (X_Osc_U1.7) 12.72E-06                    
+(X_Osc_U1.6)-1.369E-09                (X_Osc_U1.7) 12.72E-06                    
 
 (X_Osc_U1.8) 12.72E-06                (X_Osc_U1.9)    0.0000                    
 
@@ -224,7 +223,7 @@ R_R1         0 N01069  1k TC=0,0
     X_Modulator_U1.vlim   9.381E-09
     X_Modulator_U1.vlp  -4.000E-11
     X_Modulator_U1.vln  -4.000E-11
-    X_BPF_U1.vb  -1.284E-14
+    X_BPF_U1.vb  -7.956E-14
     X_BPF_U1.vc   1.380E-11
     X_BPF_U1.ve   1.569E-11
     X_BPF_U1.vlim   9.953E-09
@@ -237,7 +236,7 @@ R_R1         0 N01069  1k TC=0,0
 
           JOB CONCLUDED
 
-**** 03/12/20 15:10:07 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+**** 03/12/20 15:22:04 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
 
  ** Profile: "SCHEMATIC1-Modulator"  [ C:\Users\Tom\Documents\EE\EE352\Project\WrapperPart1\wrapperpart1-pspicefiles\schematic1\modul
 
@@ -249,5 +248,5 @@ R_R1         0 N01069  1k TC=0,0
 
 
 
-  Total job time (using Solver 1)   =        3.16
+  Total job time (using Solver 1)   =        3.13
 
