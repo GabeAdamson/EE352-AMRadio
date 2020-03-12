@@ -1,0 +1,10 @@
+* source WRAPPERPART1
+R_Osc_R3         Osc_N03025 N00025  330 TC=0,0 
+R_Osc_R4         0 Osc_N02983  330 TC=0,0 
+V_Osc_V1         Osc_N02991 0 15Vdc
+C_Osc_C2         0 Osc_N02983  4.7n  TC=0,0 
+R_Osc_R2         0 Osc_N02857  1k TC=0,0 
+X_Osc_U1         Osc_N02983 Osc_N02857 Osc_N02991 Osc_N02877 N00025 OP-27
+V_Osc_V2         0 Osc_N02877 15Vdc
+C_Osc_C1         Osc_N02983 Osc_N03025  4.7n  TC=0,0 
+R_Osc_R1         Osc_N02857 N00025  2.2k TC=0,0 

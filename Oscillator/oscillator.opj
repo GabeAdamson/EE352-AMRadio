@@ -30,6 +30,12 @@
     (0
       (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
       (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
     (VSIN
       (FullPartName "VSIN.Normal")
       (LibraryName
@@ -63,20 +69,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Tom\Documents\EE\EE352\Project\Oscillator\oscillator.dsn")
+      (Path "Design Resources"
+         "C:\Users\Tom\Documents\EE\EE352\Project\Oscillator\oscillator.dsn"
+         "SCHEMATIC1")
       (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 41 241 25 215"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-101 221")
-        (Zoom "100")
-        (Occurrence "/"))
-      (Path "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\OSCILLATOR\OSCILLATOR.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+        (Placement "44 2 3 -1 -1 -8 -31 41 241 25 215"))
+      (Tab 0))))
