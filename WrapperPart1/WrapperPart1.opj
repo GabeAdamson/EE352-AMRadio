@@ -69,13 +69,13 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 0 200 0 190"))
+        (Placement "44 2 3 -1 -1 -8 -31 0 200 0 190"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-101 27")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1178 52 281")
+        (Scroll "-54 121")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -86,7 +86,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1204 78 307")
-        (Scroll "293 108")
+        (Scroll "293 161")
         (Zoom "152")
         (Occurrence "/Osc"))
       (Path
@@ -97,7 +97,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "214 242")
+        (Scroll "97 193")
         (Zoom "152")
         (Occurrence "/Modulator"))
       (Path
