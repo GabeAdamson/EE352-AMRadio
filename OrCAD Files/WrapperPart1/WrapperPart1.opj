@@ -64,8 +64,15 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Users\Tom\Documents\EE\EE352\Project\OrCAD Files\WrapperPart1\wrapperpart1.dsn")
+      (Path "Design Resources"
+         "C:\Users\Tom\Documents\EE\EE352\Project\OrCAD Files\WrapperPart1\wrapperpart1.dsn"
+         "SCHEMATIC1")
       (Path "Outputs")
-      (Select "Design Resources"))
+      (Select "Design Resources"
+         "C:\Users\Tom\Documents\EE\EE352\Project\OrCAD Files\WrapperPart1\wrapperpart1.dsn"
+         "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -76,43 +83,21 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 2 3 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-101 0")
+        (Scroll "-101 115")
         (Zoom "100")
         (Occurrence "/"))
       (Path
-         "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\WRAPPERPART1\WRAPPERPART1.DSN")
+         "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\ORCAD FILES\WRAPPERPART1\WRAPPERPART1.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1"))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1204 78 307")
-        (Scroll "293 161")
-        (Zoom "152")
-        (Occurrence "/Osc"))
-      (Path
-         "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\WRAPPERPART1\WRAPPERPART1.DSN")
-      (Schematic "Osc")
-      (Page "Osc"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "97 251")
-        (Zoom "152")
+        (Scroll "-54 136")
+        (Zoom "100")
         (Occurrence "/Modulator"))
       (Path
-         "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\WRAPPERPART1\WRAPPERPART1.DSN")
+         "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\ORCAD FILES\WRAPPERPART1\WRAPPERPART1.DSN")
       (Schematic "Switching Modulator")
-      (Page "Modulator"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 26 858 26 255")
-        (Scroll "0 12")
-        (Zoom "100")
-        (Occurrence "/BPF"))
-      (Path
-         "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\WRAPPERPART1\WRAPPERPART1.DSN")
-      (Schematic "High-Q Filter")
-      (Page "HighQ"))))
+      (Page "Modulator"))))
