@@ -82,8 +82,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-101 115")
+        (Placement "44 0 1 -1 -1 -8 -31 52 1178 52 281")
+        (Scroll "-54 245")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -94,10 +94,21 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1204 78 307")
-        (Scroll "-54 136")
+        (Scroll "-54 183")
         (Zoom "100")
         (Occurrence "/Modulator"))
       (Path
          "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\ORCAD FILES\WRAPPERPART1\WRAPPERPART1.DSN")
       (Schematic "Switching Modulator")
-      (Page "Modulator"))))
+      (Page "Modulator"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -31 0 1126 0 229")
+        (Scroll "-101 0")
+        (Zoom "100")
+        (Occurrence "/BPF"))
+      (Path
+         "C:\USERS\TOM\DOCUMENTS\EE\EE352\PROJECT\ORCAD FILES\WRAPPERPART1\WRAPPERPART1.DSN")
+      (Schematic "High-Q Filter")
+      (Page "HighQ"))))
