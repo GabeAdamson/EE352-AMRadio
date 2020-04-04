@@ -1,0 +1,15 @@
+* C:\Users\Tom\Documents\EE\EE352\Project\LTSPICE\Project.asc
+Vdd VDD 0 15
+Vee VEE 0 -15
+XU1 N003 N001 VDD VEE N002 OP27
+R1 N002 N001 2.2k
+R2 N001 0 1k
+R3 N002 N004 330
+C1 N004 N003 4.7n
+R4 N003 0 330
+C2 N003 0 4.7n
+I1 0 N003 PULSE(10n 0 0 1n 1n 5n 10n 10)
+.tran 0 5m 0 10n
+.lib ADI.lib
+.backanno
+.end
