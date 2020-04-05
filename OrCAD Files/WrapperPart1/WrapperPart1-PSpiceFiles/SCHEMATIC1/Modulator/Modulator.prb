@@ -64,3 +64,4 @@ END DISPLAY LAST SESSION
 TR 0 Period_XRange(V(Modulator.Out),1.1m,1.2m)
 TR 0 Period_XRange(V(BPF:Out),1.1m,1.2m)
 TR 0 Period_XRange(V(BPF:Out),2.5m,3m)
+TR 0 Period_XRange(V(BPF.Out),2.5m,2.6m)
