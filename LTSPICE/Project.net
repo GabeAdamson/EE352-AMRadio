@@ -1,6 +1,6 @@
 * C:\Users\Tom\Documents\EE\EE352\Project\LTSPICE\Project.asc
-Vdd VDD 0 15
-Vee VEE 0 -15
+Vdd VDD 0 12
+Vee VEE 0 -12
 XU1 N006 N001 VDD VEE N002 OP27
 R1 N002 N001 2.2k
 R2 N001 0 1k
