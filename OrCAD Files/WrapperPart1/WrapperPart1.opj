@@ -64,15 +64,7 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\Tom\Documents\EE\EE352\Project\OrCAD Files\WrapperPart1\wrapperpart1.dsn")
-      (Path "Design Resources"
-         "C:\Users\Tom\Documents\EE\EE352\Project\OrCAD Files\WrapperPart1\wrapperpart1.dsn"
-         "SCHEMATIC1")
-      (Path "Outputs")
-      (Select "Design Resources"
-         "C:\Users\Tom\Documents\EE\EE352\Project\OrCAD Files\WrapperPart1\wrapperpart1.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Outputs"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -82,8 +74,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -8 -31 52 1178 52 281")
-        (Scroll "-54 245")
+        (Placement "44 2 3 -1 -1 -8 -31 52 1178 52 281")
+        (Scroll "-101 174")
         (Zoom "100")
         (Occurrence "/"))
       (Path
@@ -94,7 +86,7 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -8 -31 78 1204 78 307")
-        (Scroll "-54 183")
+        (Scroll "-54 0")
         (Zoom "100")
         (Occurrence "/Modulator"))
       (Path
@@ -104,8 +96,8 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -8 -31 0 1126 0 229")
-        (Scroll "-101 0")
+        (Placement "44 0 1 -1 -1 -8 -31 0 1126 0 229")
+        (Scroll "-54 0")
         (Zoom "100")
         (Occurrence "/BPF"))
       (Path
